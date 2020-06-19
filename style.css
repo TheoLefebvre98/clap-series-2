@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.global{
+  height: 100vh;
+  background-color: aquamarine;
+}
+
+.players{
+  display: flex;
+  justify-content: space-around;
+  background-color: darkslateblue;
+}
+
+.player{
+  width: 30%;
+}
+
+.player-name{
+  text-align: center;
+  padding: 5%;
+}
+
+.player-image{
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.button{
+  margin-top: 8%;
+}
+
+#play-button{
+  background-color: coral;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.8;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#play-button:hover{opacity: 1;}
